@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: blue;
+        }
+        .lista_sin_vineta{
+            list-style-type: none;
+        }
+        body{
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menú</h1>
+    <ul>
+        <li>Inicio</li>
+        <li><strong>Noticias</strong></li>
+            <ul>
+                <li><a href="">Recientes</a></li>
+                <li><strong><a href="">Más leidas</a></strong></li>
+                <li><a href="">Más valoradas</a></li>
+            </ul>
+        <li>Articulos</li>
+            <ol>
+                <li><strong>XHTML</strong></li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Otros</li>
+            </ol>
+        <li>Contacto</li>
+    </ul>
+    <ul class="lista_sin_vineta">
+        <li><em>Email</em></li>
+            <ul class="lista_sin_vineta"> <li><strong>nombre@direccion.com</strong></li></ul>
+        <li><em>Teléfono</em></li>
+            <ul class="lista_sin_vineta"> <li>900 900 900</li></ul>
+        <li><em>Fax</em></li>
+        <ul class="lista_sin_vineta"> <li>900 900 900</li></ul>
+    </ul>
+</body>
+</html>
